@@ -1,0 +1,244 @@
+@charset "utf-8";
+@import url("webfonts/DJGROSS/stylesheet.css");
+
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+	background-image: url(images/hongkong.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+video{
+	margin-left: 10px;
+}
+fieldset{
+	margin: 10px;
+	border-width: 2px;
+	border-color: #F00;	
+}
+legend{
+	background-color: #FFBE00;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	margin-left: 25px;
+}
+th{
+	background: #FD0;
+	color: #070;
+}
+#container{
+	width: 960px;
+	margin: auto;
+}
+#header{
+	width: 960px;
+	float: left;
+	position: relative;
+}
+#section{
+	width: 960px;
+	float: left;
+	background: #FF8800;
+}
+#article{
+	margin: 10px;
+	width: 630px;
+	float: left;
+	background: #FFF;
+}
+#article p{
+	margin: 10px;
+}
+#article h1{
+	background-image: url(images/h1banner.png);
+	background-repeat: no-repeat;
+	margin-left: 15px;
+	font-size: 24px;
+	color: #FFFFFF;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 60px;
+}
+#article h2{
+	color: #0F2;
+	border-left: 8px solid #F00;
+	margin-left: 30px;
+	padding-left: 10px;
+	font-size: 24px;
+}
+#article h3{
+	color: #FF8600;
+	margin-left: 40px;
+}
+#article ol li{
+	color: #FF0004;
+	padding-top: 10px;
+	text-shadow: 1px 1px 5px #000;
+}
+#article a{
+	color: #676767;
+	text-decoration: none;
+}
+#article a:hover{
+	color: #000000;
+	text-decoration: underline;
+}
+#aside{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 300px;
+	float: left;	
+}
+#footer{
+	width: 960px;
+	height: 164px;
+	background-image: url(images/footer.jpg);
+	float: left;
+}
+#footer p{
+	float: right;
+	margin-top: 140px;
+	margin-right: 20px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #000;
+}
+.logo{
+	position: absolute;
+	z-index: 9999;
+	left: 0px;
+	top: 0px;	
+}
+.nav{
+	position: absolute;
+	z-index: 9998;
+	left: 185px;
+	top: 330px;
+	width: 581px;
+}
+.nav ul{
+	margin: 0;
+	padding: 0;
+}
+.nav li{
+	list-style-type: none;
+	float: left;
+}
+.nav li a{
+	width: 72px;
+	float: left;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	border-right: solid 1px #FF0004;
+	background-color: rgba(0,0,0,0.6);
+	background-position: 000;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color: rgba(255,255,255,1);
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+.nav li a:hover{
+	text-decoration: underline;
+	color: rgba(255,0,4,1.00);
+	background: rgba(232,255,0,0.80)
+}
+.hgroup{
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #000;
+	overflow: hidden;
+	float: left;
+	width: 300px;
+	margin-bottom: 5px;
+}
+.group{
+	background-image: url(images/boxheader.png);
+	float: left;
+	height: 55px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-color: #FFF;
+}
+.group h2{
+	text-align: center;
+	margin: 15px;
+}
+.group2{
+	background-color: #FFFFFF;
+	width: 300px;
+	float:left;
+}
+.group2 p{
+	font-size: 13px;
+	margin: 10px;
+}
+.group3{	
+	width: 280px;
+	margin:auto;
+}
+.photo{
+	float: right;
+	margin: 5px;
+	clear: both;
+}
+.both{
+	clear: both;
+}
+.top{
+	float: right;
+	margin-right: 5px;
+	margin-bottom: -40px;
+}
+.main{
+	margin: 10px;
+	float: left;
+}
+.mainb{
+	width: 187px;
+	border: solid 8px #999;
+	float: left;
+	opacity: 0.5;
+	-webkit-transition: all 0.02s ease 0.02s;
+	-o-transition: all 0.02s ease 0.02s;
+	transition: all 0.02s ease 0.02s;
+}
+.mainc{
+	text-align: center;
+	font-size: 14px;
+	padding: 3px 0px 3px 0px;
+}
+.mainb:hover {
+	-webkit-opacity: 1;
+	opacity: 1;
+}
+.blogb{
+	margin: auto; 
+	width: 400px;
+	transform: rotate(-7deg);
+}
+.blogc{
+	text-align: center;
+	font-family: DJGROSS;
+	font-size: 24px;
+	color: #005EDD;
+}
+.left{
+	float: left;
+}
+.button{
+	margin-left: 220px;
+	font-size: 18px;
+}
+.button2{
+	font-size: 18px;
+}
